@@ -71,7 +71,7 @@ definitions:
     
     properties:
     
-      charisma:
+      appeal:
       
         type: array
         
@@ -79,7 +79,7 @@ definitions:
         
           $ref: '#/definitions/Category'
           
-      integrity:
+      credibility:
       
         type: array
         
@@ -87,7 +87,7 @@ definitions:
         
           $ref: '#/definitions/Category'
           
-      courtesy:
+      consideration:
       
         type: array
         
@@ -95,7 +95,7 @@ definitions:
         
           $ref: '#/definitions/Category'
           
-      innclusion:
+      integration:
       
         type: array
         
@@ -103,7 +103,7 @@ definitions:
         
           $ref: '#/definitions/Category'
           
-      translation:
+      clarification:
       
         type: array
         
@@ -117,9 +117,9 @@ definitions:
     
     properties:
     
-      span:
+      annotated_text:
       
-        type: array
+        type: string
         
         items:
         
